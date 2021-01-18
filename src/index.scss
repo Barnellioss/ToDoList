@@ -1,6 +1,6 @@
 @import "~bootstrap/scss/bootstrap";
 html, body{
-    background-color: #343A40;
+    background-color: #343A40 !important;
 }
 
 .big-checkbox {
@@ -9,9 +9,9 @@ html, body{
 }
 
 .note{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
     strong{
         margin-right: 1rem;
     }
